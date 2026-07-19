@@ -126,10 +126,11 @@ For each slide, produce the relevant fields from this template. Use judgment abo
 - **Include selectively**: Subtitle (section openers, context-setting slides), Speaker Notes (complex points, stories, audience engagement moments)
 - **Omit**: Any field that would be redundant or add no value
 
-### Phase 5 — Polish
+### Phase 5 — Polish and Self-Review
 
-Before delivering, verify:
+Before delivering, run two checks:
 
+**Structural check:**
 - [ ] The narrative builds progressively — no slide makes sense without the ones before it
 - [ ] The opening hooks attention within the first slide
 - [ ] The closing has a clear call to action or memorable synthesis
@@ -139,6 +140,12 @@ Before delivering, verify:
 - [ ] The deck respects cognitive load — no slide has more than 4–5 points
 - [ ] Tone matches the audience (formal for executives, conversational for teams)
 - [ ] The outline works if pasted directly into Gamma/Beautiful.ai/Tome
+
+**Adversarial check** (challenge your own outline):
+- [ ] Would a skeptical executive sit through this without checking their phone?
+- [ ] Is every claim specific enough, or are there vague platitudes? ("drives growth" → "projected 18% ARR increase")
+- [ ] Could someone rearrange the slides and it would still "work"? If yes, the narrative is broken — fix the flow
+- [ ] Does any slide exist only because "presentations usually have one"? If so, cut it
 
 ---
 
@@ -171,16 +178,24 @@ Every slide must pass this test. If the audience can look at a slide and ask "so
 
 ## Constraints
 
-- Do NOT produce walls of text on slides. Maximum 4–5 bullet points per slide, each under 15 words.
-- Do NOT use generic visuals. "Add an image" is useless. "Photo of a team collaborating in a modern office" or "Flowchart showing data pipeline from ingestion to dashboard" is actionable.
-- Do NOT front-load with agenda/overview slides unless the deck exceeds 12 slides or the audience expects formal structure.
-- Do NOT add "Questions?" slides — they waste a slide on something that happens naturally. End with impact.
-- Do NOT produce speaker notes that merely restate the bullet points. Speaker notes add context, stories, or delivery guidance.
-- Do NOT assume a presentation format. A 5-slide internal update is valid. A 40-slide workshop is valid. Match the need.
-- Do NOT use jargon the stated audience wouldn't understand. Adapt terminology.
-- Do NOT number slides as "Slide 1, Slide 2..." in titles. Use descriptive, compelling titles.
-- ALWAYS lead with what matters most to the audience, not what matters most to the presenter.
-- ALWAYS end with forward momentum — a call to action, a next step, or a provocative closing thought.
+Each constraint includes reasoning so you can judge edge cases:
+
+- Do NOT produce walls of text on slides. Maximum 4–5 bullet points per slide, each under 15 words. **Why:** Audiences read ahead and stop listening. Dense slides split attention between reading and hearing.
+- Do NOT use generic visuals. "Add an image" is useless — specify "horizontal bar chart comparing X vs Y" or "flowchart showing data pipeline from ingestion to dashboard." **Why:** Vague recommendations get ignored by both humans and AI tools.
+- Do NOT front-load with agenda/overview slides unless the deck exceeds 12 slides or the audience expects formal structure. **Why:** Short decks don't need a roadmap — they ARE the roadmap. Agenda slides on a 6-slide deck waste 16% of your slides.
+- Do NOT add "Questions?" slides. **Why:** Q&A happens naturally. A "Questions?" slide wastes your final impression on logistics instead of impact.
+- Do NOT produce speaker notes that merely restate the bullet points. Speaker notes should add context, stories, or delivery guidance. **Why:** Restated notes provide zero value — they just make the outline look longer.
+- Do NOT assume a presentation format. A 5-slide internal update is valid. A 40-slide workshop is valid. **Why:** Forcing a 10-slide template onto a 3-minute update creates padding. Match the need.
+- Do NOT use jargon the stated audience wouldn't understand. **Why:** Confusion breaks engagement. Adapt terminology to the audience's domain.
+- Do NOT number slides as "Slide 1, Slide 2..." in titles. Use descriptive, compelling titles. **Why:** Numbered titles provide no information. A title like "Market Opportunity" tells the audience what to expect; "Slide 4" does not.
+- Lead with what matters most to the audience, not what matters most to the presenter. **Why:** Presenters naturally want to tell their story chronologically. Audiences want the answer first and the reasoning second (Pyramid Principle).
+- End with forward momentum — a call to action, a next step, or a provocative closing thought. **Why:** The last slide is what the audience remembers. Make it count.
+
+**This skill is NOT for:**
+- Generating actual slide files (.pptx, .pdf) — use the `pptx` skill for that
+- Writing full speaker scripts or speech drafts
+- Designing visual templates or brand guidelines
+- Creating handout documents or leave-behind materials
 
 ---
 
