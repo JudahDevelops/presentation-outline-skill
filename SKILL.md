@@ -171,6 +171,9 @@ Reveal complexity gradually. Start with the accessible headline, then layer in n
 ### Separation of Concerns
 Slide content (what they see) is different from speaker content (what you say). Do not put your script on the slide. Slides are visual anchors, not teleprompters.
 
+### Action Titles, Not Topic Labels
+Slide titles should be assertive statements, not passive topics. "Revenue grew 3x through channel expansion" tells the audience the point. "Revenue Overview" tells them nothing. Write titles that could be read in sequence as a coherent narrative (the "ghost deck" test).
+
 ### The "So What?" Test
 Every slide must pass this test. If the audience can look at a slide and ask "so what?" without finding the answer, the slide fails.
 
